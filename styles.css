@@ -43,16 +43,21 @@ header {
   justify-content: center;
   align-items: center;
   max-height: fit-content;
+  flex-wrap: wrap;
 }
 
 .section__text {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   justify-content: space-between;
   max-width: 700px;
-  margin-right: 10%;
-  padding-top: 30px;
+  margin-right: 5%;
+  padding-top: 80px;
+}
+
+.section__subtext {
+  max-width: 500px;
+  margin: 15px 0px 50px 0px;
 }
 
 .section__img {
@@ -67,13 +72,11 @@ span {
   font-size: 110px;
   font-family: Merriweather, "Times New Roman", serif;
   color: #e3e3e6;
-  margin-bottom: 2%;
 }
 
 p {
   font-size: 15px;
   font-weight: 400;
-  margin-bottom: 7%;
 }
 
 span {
