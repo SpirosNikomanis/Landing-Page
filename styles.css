@@ -61,6 +61,12 @@ button {
   border-color: #8a8069;
 }
 
+/* Main Wrapper */
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+}
 /* Header Section */
 
 header {
@@ -125,6 +131,8 @@ img {
   max-block-size: 80px;
 }
 
+/* Services Section */
+
 .info-section {
   margin-bottom: 10%;
 }
@@ -162,6 +170,8 @@ img {
   font-size: 15px;
 }
 
+/* Testimonials Section */
+
 .test-section {
   background: #8a8069;
   display: flex;
@@ -192,8 +202,6 @@ img {
   flex-direction: column;
   flex-wrap: wrap;
   max-width: 300px;
-
-  /* border: 2px solid; */
 }
 
 .test__text-container p {
@@ -214,6 +222,8 @@ img {
   max-height: fit-content;
   overflow: clip;
 }
+
+/* CTA Section */
 
 .cta-section {
   padding: 120px;
@@ -263,6 +273,7 @@ img {
   border-radius: 20px;
 }
 
+/* Footer Section */
 .footer_content {
   display: flex;
   justify-content: center;
