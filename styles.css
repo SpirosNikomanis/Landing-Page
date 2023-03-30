@@ -40,16 +40,17 @@ span {
 button {
   display: inline-block;
   background-color: #ca9b2cbe;
-  color: #dcdcde;
+  color: #e7e7e7;
   padding: 5px 10px;
   border-radius: 5px;
   max-width: max-content;
+  border-color: #8a8069;
 }
 
 .nav__list a {
   list-style-type: none;
   text-decoration: none;
-  color: #dcdcde;
+  color: #e7e7e7;
 }
 
 .nav-container {
@@ -95,18 +96,45 @@ button {
   max-height: 700px;
 }
 
-.info-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: #e3e3e600;
-}
-
 .brands-container {
   display: flex;
   justify-content: space-around;
+  background: #dcdcde;
 }
 
 .brands__logo img {
   max-height: 80px;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info__header {
+  margin: 40px 0px;
+  text-align: center;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card__body {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  background-color: white;
+  padding: 15px;
+  border: none;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.card__image > img {
+  display: block;
+  max-width: 100%;
+  border-radius: 10px;
 }
